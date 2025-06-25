@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nova Square", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(./img/galaxia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);;
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    backdrop-filter: blur(10px);
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    padding: 20px 45px 20px 20px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    outline: none;
+    border-radius: 10px;
+    background-color:transparent;
+    color: #fff;
+    font-size: 18px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, .5);
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 75%;
+    font-size: 20px;
+}
+
+.lembrar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -15px 0 15px;
+}
+
+.lembrar label input{
+    accent-color: white;
+    margin-right: 5px;
+}
+
+.lembrar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lembrar a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgba(240, 46, 170, .8);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgba(240, 46, 170, 1);
+    transition: 0.5ms;
+}
+
+.link-cadastro {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-cadastro a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-cadastro a:hover {
+    text-decoration: underline;
+}
